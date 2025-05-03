@@ -1,0 +1,30 @@
+- id: java
+  name: java
+  author: P1finger
+  description: java
+  tags:
+    - java
+  matchers:
+    - location: header
+      words:
+      - JSESSIONID
+- id: asp.net
+  name: asp.net
+  author: P1finger
+  description: asp.net
+  tags:
+    - asp.net
+  matchers:
+    - location: header
+      words:
+      - ASP.NET_SessionId
+- id: php
+  name: php_language
+  author: P1finger
+  description: php
+  tags:
+    - php
+  matchers:
+    - location: header
+      words:
+      - PHPSESSID

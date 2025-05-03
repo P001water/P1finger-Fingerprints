@@ -1,0 +1,159 @@
+- id: 网宿
+  name: 网宿
+  author: P1finger
+  description: 网宿
+  tags:
+  - 网宿
+  matchers:
+  - location: header
+    words:
+    - WS CDN Server
+- id: alloyui
+  name: alloyui
+  author: P1finger
+  description: alloyui
+  tags:
+  - alloyui
+  matchers:
+  - location: body
+    words:
+    - cdn.alloyui.com
+- id: cdn-cache-server
+  name: cdn-cache-server
+  author: P1finger
+  description: cdn-cache-server
+  tags:
+  - cdn-cache-server
+  matchers:
+  - location: header
+    words:
+    - Cdn Cache Server
+- id: fastlycdn
+  name: fastly cdn
+  author: P1finger
+  description: fastly cdn
+  tags:
+  - fastly cdn
+  matchers:
+  - location: body
+    words:
+    - fastcdn.org
+- id: gocdn
+  name: gocdn
+  author: P1finger
+  description: gocdn
+  tags:
+  - gocdn
+  matchers:
+  - location: header
+    words:
+    - GOCDN
+- id: 阿里云cdn
+  name: 阿里云cdn
+  author: P1finger
+  description: 阿里云cdn
+  tags:
+  - 阿里云cdn
+  matchers:
+  - location: body
+    words:
+    - cdn.aliyuncs.com
+  - location: header
+    words:
+    - cdn.aliyuncs.com
+    - x-swift-cachetime
+- id: 加速乐cdn
+  name: 加速乐CDN
+  author: P1finger
+  description: 加速乐CDN
+  tags:
+  - 加速乐CDN
+  matchers:
+  - location: header
+    words:
+    - jiasule
+  - location: body
+    words:
+    - notice-jiasule
+- id: 百度cdn
+  name: 百度cdn
+  author: P1finger
+  description: 百度cdn
+  tags:
+  - 百度cdn
+  matchers:
+  - location: body
+    words:
+    - apps.bdimg.com
+    - libs.baidu.com
+  - location: header
+    words:
+    - libs.baidu.com
+- id: powercdn
+  name: powercdn
+  author: P1finger
+  description: powercdn
+  tags:
+  - powercdn
+  matchers:
+  - location: header
+    words:
+    - Powercdn
+- id: 七牛cdn
+  name: 七牛cdn
+  author: P1finger
+  description: 七牛cdn
+  tags:
+  - 七牛cdn
+  matchers:
+    - location: header
+      words:
+        - cdn.staticfile.org
+        - X-Qiniu-Zone
+- id: maxcdn
+  name: maxcdn
+  author: P1finger
+  description: maxcdn
+  tags:
+    - maxcdn
+  matchers:
+    - location: header
+      words:
+      - NetDNA
+- id: 加速乐
+  name: 加速乐
+  author: P1finger
+  description: 加速乐
+  tags:
+  - 加速乐
+  matchers:
+  - location: header
+    words:
+    - __jsluid
+- id: 腾讯云cdn
+  name: 腾讯云CDN
+  author: P1finger
+  description: 腾讯云CDN
+  tags:
+  - 腾讯云CDN
+  matchers:
+  - location: header
+    words:
+    - X-NWS-LOG-UUID
+- id: 阿里云cdn
+  name: 阿里云cdn
+  author: P1finger
+  description: 阿里云cdn
+  tags:
+  - 阿里云cdn
+  matchers: []
+- id: 天翼云cdn
+  name: 天翼云cdn
+  author: P1finger
+  description: 天翼云cdn
+  tags:
+  - 天翼云cdn
+  matchers:
+  - location: header
+    words:
+    - hotload rechange server uri format error

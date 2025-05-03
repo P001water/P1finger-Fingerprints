@@ -1,0 +1,580 @@
+- id: jira
+  name: jira
+  author: P1finger
+  description: jira
+  tags:
+  - jira
+  matchers:
+  - location: body
+    words:
+    - jira.webresources
+
+- id: sonarqube
+  name: sonarqube
+  author: P1finger
+  description: sonarqube
+  tags:
+  - sonarqube
+  matchers:
+  - location: body
+    words:
+    - SonarQube
+
+- id: portainer
+  name: portainer
+  author: P1finger
+  description: portainer
+  tags:
+    - portainer
+  matchers:
+    - location: body
+      words:
+        - portainer.
+
+- id: apisix
+  name: apisix
+  author: P1finger
+  description: apisix
+  tags:
+  - apisix
+  matchers:
+  - location: body
+    words:
+    - 'error_msg: "failed to match any routes"'
+
+- id: k8s_api
+  name: k8s_api
+  author: P1finger
+  description: k8s_api
+  tags:
+  - k8s_api
+  matchers:
+  - location: body
+    words:
+    - '"kind": "Status"'
+- id: k8s_dashboard
+  name: k8s_dashboard
+  author: P1finger
+  description: k8s_dashboard
+  tags:
+  - k8s_dashboard
+  matchers:
+  - location: body
+    words:
+    - assets/images/kubernetes-logo.png
+- id: gogs
+  name: gogs
+  author: P1finger
+  description: gogs
+  tags:
+  - gogs
+  matchers:
+  - location: header
+    words:
+    - i_like_gog
+    - i_like_gitea
+- id: jenkins
+  name: jenkins
+  author: P1finger
+  description: jenkins
+  tags:
+  - jenkins
+  matchers:
+  - location: header
+    words:
+    - X-Jenkins
+  - location: body
+    words:
+    - Jenkins
+- id: nexus
+  name: nexus
+  author: P1finger
+  description: nexus
+  tags:
+  - nexus
+  matchers:
+  - location: body
+    words:
+    - Nexus Repository Manager
+  - location: header
+    words:
+    - NX-ANTI-CSRF-TOKEN
+- id: harbor
+  name: harbor
+  author: P1finger
+  description: harbor
+  tags:
+  - harbor
+  matchers:
+  - location: body
+    words:
+    - <title>Harbor</title>
+  - location: header
+    words:
+    - harbor-lang
+- id: swift
+  name: swift
+  author: P1finger
+  description: swift
+  tags:
+  - swift
+  matchers:
+  - location: body
+    words:
+    - swift.generic
+- id: elasticsearch
+  name: elasticsearch
+  author: P1finger
+  description: elasticsearch
+  tags:
+  - elasticsearch
+  matchers:
+  - location: body
+    words:
+    - '"cluster_name" : "elasticsearch"'
+- id: kibana
+  name: kibana
+  author: P1finger
+  description: kibana
+  tags:
+  - kibana
+  matchers:
+  - location: body
+    words:
+    - Kibana
+    - <title>Elastic
+  - location: header
+    words:
+    - kbn-name
+- id: mongodb
+  name: mongodb
+  author: P1finger
+  description: mongodb
+  tags:
+  - mongodb
+  matchers:
+  - location: body
+    words:
+    - MongoDB over HTTP on the native driver
+- id: hadoop
+  name: hadoop
+  author: P1finger
+  description: hadoop
+  tags:
+  - hadoop
+  matchers: []
+- id: grafana
+  name: grafana
+  author: P1finger
+  description: grafana
+  tags:
+  - grafana
+  matchers:
+  - location: body
+    words:
+    - Grafana</title>
+- id: fastadmin
+  name: fastadmin
+  author: P1finger
+  description: fastadmin
+  tags:
+  - fastadmin
+  matchers:
+  - location: body
+    words:
+    - fastadmin
+- id: couchbase
+  name: couchbase
+  author: P1finger
+  description: couchbase
+  tags:
+  - couchbase
+  matchers:
+  - location: body
+    words:
+    - Couchbase Console
+  - location: header
+    words:
+    - Couchbase
+- id: couchdb
+  name: couchdb
+  author: P1finger
+  description: couchdb
+  tags:
+  - couchdb
+  matchers:
+  - location: header
+    words:
+    - Erlang OTP
+  - location: body
+    words:
+    - pluggable-storage-engines
+- id: cougar
+  name: cougar
+  author: P1finger
+  description: cougar
+  tags:
+  - cougar
+  matchers:
+  - location: header
+    words:
+    - Cougar
+- id: docker
+  name: docker
+  author: P1finger
+  description: docker
+  tags:
+  - docker
+  matchers: []
+- id: etcd
+  name: etcd
+  author: P1finger
+  description: etcd
+  tags:
+  - etcd
+  matchers: []
+- id: dubbo
+  name: dubbo
+  author: P1finger
+  description: dubbo
+  tags:
+  - dubbo
+  matchers:
+  - location: header
+    words:
+    - Basic realm="dubbo"
+- id: spark_master
+  name: spark_master
+  author: P1finger
+  description: spark_master
+  tags:
+  - spark_master
+  matchers:
+  - location: body
+    words:
+    - Spark Master at
+- id: vmwarezimbra
+  name: vmware zimbra
+  author: P1finger
+  description: vmware zimbra
+  tags:
+  - vmware zimbra
+  matchers:
+  - location: body
+    words:
+    - Zimbra Collaboration
+    - /zimbra/css/common
+- id: vmwareesxi
+  name: vmware esxi
+  author: P1finger
+  description: vmware esxi
+  tags:
+  - vmware esxi
+  matchers:
+  - location: body
+    words:
+    - ID_EESX_Welcome
+    - ID_ESX_Welcome
+    - 0;URL='/ui'
+- id: vmwarevfabric
+  name: vmware vfabric
+  author: P1finger
+  description: vmware vfabric
+  tags:
+  - vmware vfabric
+  matchers:
+  - location: body
+    words:
+    - VMware vFabric
+- id: vmwarecenter
+  name: vmware center
+  author: P1finger
+  description: vmware center
+  tags:
+  - vmware center
+  matchers:
+  - location: body
+    words:
+    - ID_VC_Welcome
+- id: vmwareoneaccess
+  name: vmware oneaccess
+  author: P1finger
+  description: vmware oneaccess
+  tags:
+  - vmware oneaccess
+  matchers:
+  - location: body
+    words:
+    - SAAS/horizon/css
+    - Workspace ONE Access
+- id: vmwarehorizon
+  name: vmware Horizon
+  author: P1finger
+  description: vmware Horizon
+  tags:
+  - vmware Horizon
+  matchers:
+  - location: body
+    words:
+    - VMware&nbsp;Horizon
+    - vmware horizon
+- id: vmwareidentity
+  name: vmware identity
+  author: P1finger
+  description: vmware identity
+  tags:
+  - vmware identity
+  matchers:
+  - location: body
+    words:
+    - cfg/js-lib
+    - VMware Identity
+- id: visualsvn
+  name: visualsvn
+  author: P1finger
+  description: visualsvn
+  tags:
+  - visualsvn
+  matchers:
+  - location: body
+    words:
+    - VisualSVN Server
+    - =svn/
+- id: zabbix
+  name: zabbix
+  author: P1finger
+  description: zabbix
+  tags:
+  - zabbix
+  matchers:
+  - location: body
+    words:
+    - images/general/zabbix.ico
+    - meta name="Author" content="Zabbix SIA"
+  - location: header
+    words:
+    - zbx_sessionid
+- id: graphql
+  name: graphql
+  author: P1finger
+  description: graphql
+  tags:
+  - graphql
+  matchers: []
+- id: slack
+  name: slack
+  author: P1finger
+  description: slack
+  tags:
+  - slack
+  matchers: []
+- id: gitlab
+  name: gitlab
+  author: P1finger
+  description: gitlab
+  tags:
+  - gitlab
+  matchers:
+  - location: body
+    words:
+    - gon.default_issues_tracker
+    - GitLab
+  - location: header
+    words:
+    - _gitlab_session
+- id: atlassian
+  name: atlassian
+  author: P1finger
+  description: atlassian
+  tags:
+  - atlassian
+  matchers: []
+- id: ansible
+  name: ansible
+  author: P1finger
+  description: ansible
+  tags:
+  - ansible
+  matchers: []
+- id: rabbitmq-manager
+  name: rabbitmq-manager
+  author: P1finger
+  description: rabbitmq-manager
+  tags:
+  - rabbitmq-manager
+  matchers:
+  - location: body
+    words:
+    - RabbitMQ Management
+- id: activemq-manager
+  name: activemq-manager
+  author: P1finger
+  description: activemq-manager
+  tags:
+  - activemq-manager
+  matchers:
+  - location: body
+    words:
+    - Apache ActiveMQ
+- id: nacos
+  name: nacos
+  author: P1finger
+  description: nacos
+  tags:
+  - nacos
+  matchers:
+  - location: body
+    words:
+    - <title>Nacos</title>
+- id: flink
+  name: flink
+  author: P1finger
+  description: flink
+  tags:
+  - flink
+  matchers:
+  - location: body
+    words:
+    - flink
+- id: minio
+  name: minio
+  author: P1finger
+  description: minio
+  tags:
+  - minio
+  matchers:
+  - location: body
+    words:
+    - MinIO
+  - location: header
+    words:
+    - minio
+- id: apollo
+  name: apollo
+  author: P1finger
+  description: apollo
+  tags:
+  - apollo
+  matchers:
+  - location: body
+    words:
+    - Apollo
+- id: tidb-web
+  name: tidb-web
+  author: P1finger
+  description: tidb-web
+  tags:
+  - tidb-web
+  matchers:
+  - location: body
+    words:
+    - TiDB Status
+- id: kafka-manager
+  name: kafka-manager
+  author: P1finger
+  description: kafka-manager
+  tags:
+  - kafka-manager
+  matchers:
+  - location: body
+    words:
+    - Kafka Manager
+- id: canal
+  name: Canal
+  author: P1finger
+  description: Canal
+  tags:
+  - Canal
+  matchers:
+  - location: body
+    words:
+    - Canal Admin
+- id: cluster
+  name: Cluster
+  author: P1finger
+  description: Cluster
+  tags:
+  - Cluster
+  matchers:
+  - location: body
+    words:
+    - Cluster Overview
+- id: traefik
+  name: Traefik
+  author: P1finger
+  description: Traefik
+  tags:
+  - Traefik
+  matchers:
+  - location: body
+    words:
+    - Traefik
+- id: yapi
+  name: yapi
+  author: P1finger
+  description: yapi
+  tags:
+  - yapi
+  matchers:
+  - location: body
+    words:
+    - content="yapi
+- id: metrics
+  name: metrics
+  author: P1finger
+  description: metrics
+  tags:
+  - metrics
+  matchers: []
+- id: consul
+  name: consul
+  author: P1finger
+  description: consul
+  tags:
+  - consul
+  matchers:
+  - location: body
+    words:
+    - Consul by HashiCorp
+    - consul-ui/config/environment
+- id: kong
+  name: kong
+  author: P1finger
+  description: kong
+  tags:
+  - kong
+  matchers: []
+- id: express
+  name: express
+  author: P1finger
+  description: express
+  tags:
+  - express
+  matchers:
+  - location: header
+    words:
+    - Express
+- id: kubernetes
+  name: Kubernetes
+  author: P1finger
+  description: Kubernetes
+  tags:
+  - Kubernetes
+  matchers:
+  - location: body
+    words:
+    - Kubernetes Dashboard
+    - Kubeconsole
+  - location: header
+    words:
+    - Basic realm="kubernetes-master"
+- id: kubeflow
+  name: Kubeflow
+  author: P1finger
+  description: Kubeflow
+  tags:
+  - Kubeflow
+  matchers:
+  - location: body
+    words:
+    - Kubeflow

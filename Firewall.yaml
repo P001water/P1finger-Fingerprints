@@ -1,0 +1,38 @@
+- id: 阿里waf
+  name: 阿里WAF
+  author: P1finger
+  description: 阿里WAF
+  tags:
+    - 阿里WAF
+  matchers:
+    - location: header
+      words:
+        - acw_tc
+
+- id: huaweifirewall
+  name: Huawei-Firewall
+  author: Fofa
+  description: Huawei-Firewall
+  tags:
+    - huawei-firewall
+  matchers:
+    - location: header
+      words:
+        - Eudemon Server
+      condition: or
+    - location: body
+      words:
+        - Modify by wangxiangguang
+      condition: or
+
+- id: BarracudaNetworks-EmailFirewall
+  name: 梭子鱼垃圾邮件防火墙
+  author: P1finger
+  description: 梭子鱼防火墙
+  tags:
+    - 梭子鱼防火墙
+  matchers:
+    - location: body
+      words:
+        - http://www.barracudanetworks.com?a=bsf_product" class="transbutton
+        - /cgi-mod/header_logo.cgi

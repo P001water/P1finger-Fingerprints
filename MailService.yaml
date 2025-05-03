@@ -1,0 +1,396 @@
+- id: Zimbra
+  name: Zimbra
+  author: P001
+  description: Zimbra
+  tags:
+    - Zimbra
+  matchers:
+    - location: header
+      words:
+        - ZM_TEST
+      condition: and
+    - location: body
+      words:
+        - 'set-cookie: zm_login_csrf'
+        - imgzimbraicon
+        - content="zimbra
+        - window._zimbramail
+- id: 30盛安邮件系统
+  name: 30盛安邮件系统
+  author: P1finger
+  description: 30盛安邮件系统
+  tags:
+  - 30盛安邮件系统
+  matchers:
+  - location: body
+    words:
+    - 30san.all
+- id: acmailer
+  name: acmailer
+  author: P1finger
+  description: acmailer
+  tags:
+  - acmailer
+  matchers:
+  - location: body
+    words:
+    - acmailer
+- id: 安邮
+  name: 安邮
+  author: P1finger
+  description: 安邮
+  tags:
+  - 安邮
+  matchers:
+  - location: body
+    words:
+    - suremail.cn
+- id: 17mail-yi-qi-you
+  name: 17mail-易企邮
+  author: P001
+  description: 17mail-易企邮
+  tags:
+    - 17mail-易企邮
+  matchers:
+    - location: body
+      words:
+        - 易企邮
+- id: 亿邮邮件系统
+  name: 亿邮邮件系统
+  author: P1finger
+  description: 亿邮邮件系统
+  tags:
+  - 亿邮邮件系统
+  matchers:
+  - location: body
+    words:
+    - eYouMail
+    - 亿邮
+- id: exchange
+  name: exchange
+  author: P1finger
+  description: exchange
+  tags:
+  - exchange
+  matchers:
+  - location: body
+    words:
+    - /owa/auth.owa
+- id: 万网企业云邮箱
+  name: 万网企业云邮箱
+  author: P1finger
+  description: 万网企业云邮箱
+  tags:
+  - 万网企业云邮箱
+  matchers:
+  - location: body
+    words:
+    - mxhichina
+- id: 泰信tmailer邮件系统
+  name: 泰信tmailer邮件系统
+  author: P1finger
+  description: 泰信tmailer邮件系统
+  tags:
+  - 泰信tmailer邮件系统
+  matchers:
+  - location: body
+    words:
+    - Tmailer
+- id: bxemail
+  name: bxemail
+  author: P1finger
+  description: bxemail
+  tags:
+  - bxemail
+  matchers:
+  - location: body
+    words:
+    - 百讯安全邮件系统
+    - 百姓邮局
+    - bxemail.com
+- id: coremail
+  name: coremail
+  author: P1finger
+  description: coremail
+  tags:
+  - coremail
+  matchers:
+  - location: body
+    words:
+    - /coremail/common/assets
+    - Coremail邮件系统
+- id: fangmail
+  name: fangmail
+  author: P1finger
+  description: fangmail
+  tags:
+  - fangmail
+  matchers:
+  - location: body
+    words:
+    - /fangmail/default/css/em_css.css
+- id: formmail
+  name: formmail
+  author: P1finger
+  description: formmail
+  tags:
+  - formmail
+  matchers:
+  - location: body
+    words:
+    - /FormMail.pl
+    - href="http://www.worldwidemart.com/scripts/formmail.shtml
+- id: hivemail
+  name: hivemail
+  author: P1finger
+  description: hivemail
+  tags:
+  - hivemail
+  matchers:
+  - location: body
+    words:
+    - content="Hivemail
+  - location: header
+    words:
+    - hivesession
+- id: igenus邮件系统
+  name: igenus邮件系统
+  author: P1finger
+  description: igenus邮件系统
+  tags:
+  - igenus邮件系统
+  matchers:
+  - location: body
+    words:
+    - Copyright by<A HREF="http://www.igenus.org
+    - iGENUS webmail
+- id: imailserver
+  name: imailserver
+  author: P1finger
+  description: imailserver
+  tags:
+  - imailserver
+  matchers:
+  - location: body
+    words:
+    - myICalUserName
+  - location: header
+    words:
+    - Ipswitch-IMail
+- id: ipswitch-imail
+  name: ipswitch-imail
+  author: P1finger
+  description: ipswitch-imail
+  tags:
+  - ipswitch-imail
+  matchers:
+  - location: header
+    words:
+    - Ipswitch-IMail
+- id: keriomailserver
+  name: kerio mailserver
+  author: P1finger
+  description: kerio mailserver
+  tags:
+  - kerio mailserver
+  matchers:
+  - location: header
+    words:
+    - Kerio MailServer
+- id: magicwinmail
+  name: magicwinmail
+  author: P1finger
+  description: magicwinmail
+  tags:
+  - magicwinmail
+  matchers:
+  - location: header
+    words:
+    - magicwinmail_default_theme
+- id: richmail
+  name: richmail
+  author: P1finger
+  description: richmail
+  tags:
+  - richmail
+  matchers:
+  - location: body
+    words:
+    - Richmail
+- id: sophos_email_appliance
+  name: sophos_email_appliance
+  author: P1finger
+  description: sophos_email_appliance
+  tags:
+  - sophos_email_appliance
+  matchers:
+  - location: header
+    words:
+    - Sophos Email Appliance
+- id: squirrelmail
+  name: squirrelmail
+  author: P1finger
+  description: squirrelmail
+  tags:
+  - squirrelmail
+  matchers:
+  - location: header
+    words:
+    - SQMSESSID
+- id: turbomail
+  name: turbomail
+  author: P1finger
+  description: turbomail
+  tags:
+  - turbomail
+  matchers:
+  - location: body
+    words:
+    - Powered by TurboMail
+    - wzcon1 clearfix
+    - TurboMail邮件系统
+- id: u-mail
+  name: u-mail
+  author: P1finger
+  description: u-mail
+  tags:
+  - u-mail
+  matchers:
+  - location: body
+    words:
+    - <BODY LINK="White" VLINK="White" ALINK="White">
+- id: winwebmail
+  name: winwebmail
+  author: P1finger
+  description: winwebmail
+  tags:
+  - winwebmail
+  matchers:
+  - location: body
+    words:
+    - winwebmail
+    - images/owin.css
+- id: 亿邮
+  name: 亿邮
+  author: P1finger
+  description: 亿邮
+  tags:
+  - 亿邮
+  matchers:
+  - location: body
+    words:
+    - EYOU企业邮箱
+    - cr">eYouMail
+  - location: header
+    words:
+    - EMPHPSID
+- id: 迈捷邮件系统
+  name: 迈捷邮件系统
+  author: P1finger
+  description: 迈捷邮件系统
+  tags:
+  - 迈捷邮件系统
+  matchers:
+  - location: body
+    words:
+    - /aboutus/magicmail.gif
+- id: roundcubemail
+  name: roundcube mail
+  author: P1finger
+  description: roundcube mail
+  tags:
+  - roundcube mail
+  matchers: []
+- id: afterlogic
+  name: afterlogic
+  author: P1finger
+  description: afterlogic
+  tags:
+  - afterlogic
+  matchers:
+  - location: body
+    words:
+    - AfterLogic WebMail Pro
+  - location: header
+    words:
+    - PHPWEBMAILSESSID
+- id: atmail
+  name: atmail
+  author: P1finger
+  description: atmail
+  tags:
+  - atmail
+  matchers:
+  - location: header
+    words:
+    - atmail6
+  - location: body
+    words:
+    - Powered by Atmail
+    - /index.php/mail/auth/processlogin
+    - <input id="Mailserverinput
+- id: exchange
+  name: exchange
+  author: P1finger
+  description: exchange
+  tags:
+  - exchange
+  matchers:
+  - location: body
+    words:
+    - owaLgnBdy
+  - location: header
+    words:
+    - OutlookSession
+- id: 科信邮件系统
+  name: 科信邮件系统
+  author: P1finger
+  description: 科信邮件系统
+  tags:
+  - 科信邮件系统
+  matchers:
+  - location: body
+    words:
+    - /systemfunction.pack.js
+    - lo_computername
+- id: spammark邮件信息安全网关
+  name: spammark邮件信息安全网关
+  author: P1finger
+  description: spammark邮件信息安全网关
+  tags:
+  - spammark邮件信息安全网关
+  matchers:
+  - location: body
+    words:
+    - Spammark邮件信息安全网关
+    - /cgi-bin/spammark?empty=1
+- id: 金笛邮件系统
+  name: 金笛邮件系统
+  author: P1finger
+  description: 金笛邮件系统
+  tags:
+  - 金笛邮件系统
+  matchers:
+  - location: body
+    words:
+    - /jdwm/cgi/login.cgi?login
+- id: 网易企业邮箱
+  name: 网易企业邮箱
+  author: P1finger
+  description: 网易企业邮箱
+  tags:
+  - 网易企业邮箱
+  matchers:
+  - location: body
+    words:
+    - frmvalidator
+- id: 腾讯企业邮箱
+  name: 腾讯企业邮箱
+  author: P1finger
+  description: 腾讯企业邮箱
+  tags:
+  - 腾讯企业邮箱
+  matchers:
+  - location: body
+    words:
+    - /cgi-bin/getinvestigate?flowid=

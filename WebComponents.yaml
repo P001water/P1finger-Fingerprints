@@ -1,0 +1,259 @@
+- id: tengine
+  name: 淘宝-Tengine-HttpServer
+  author: Fofa
+  description: Tengine是一个由淘宝核心系统开发部开发的HTTP服务器。Tengine基于Nginx 1.0.10开发，二者配置兼容。
+  tags:
+    - tengine
+  matchers:
+    - location: header
+      words:
+        - 'Server: Tengine'
+      condition: and
+
+- id: nginx
+  name: nginx
+  author: P1finger
+  description: nginx
+  tags:
+    - nginx
+  matchers:
+    - location: header
+      type: regex
+      words:
+        - '(?m)nginx(?:/([\d.]+))'
+    - location: body
+      words:
+        - '<title>Welcome to nginx!</title>'
+
+- id: shiro
+  name: shiro
+  author: P1finger
+  description: shiro
+  tags:
+    - shiro
+  matchers:
+    - location: header
+      words:
+        - rememberMe=
+
+- id: nginx_admin
+  name: nginx_admin
+  author: P1finger
+  description: nginx_admin
+  tags:
+    - nginx_admin
+  matchers:
+    - location: header
+      words:
+        - nginx admin
+
+- id: iis
+  name: Microsoft-IIS
+  author: Fofa
+  description: IIS
+  tags:
+    - iis
+  matchers:
+    - location: header
+      words:
+        - Microsoft-IIS
+      condition: or
+    - location: header
+      words:
+        - 'X-Powered-By: WAF/2.0'
+      condition: or
+- id: tomcat
+  name: tomcat
+  author: Fofa
+  description: tomcat
+  tags:
+    - tomcat
+  matchers:
+    - location: header
+      words:
+        - Apache-Coyote
+      condition: and
+- id: apache
+  name: Apache
+  author: Fofa
+  description: Apache
+  tags:
+    - apache
+  matchers:
+    - location: header
+      words:
+        - 'Server: Apache'
+      condition: and
+- id: iis10.5
+  name: Microsoft-IIS10.5
+  author: Fofa
+  description: IIS10.5
+  tags:
+    - iis10.5
+  matchers:
+    - location: header
+      words:
+        - IIS/10.5
+      condition: and
+- id: iis10
+  name: Microsoft-IIS10
+  author: Fofa
+  description: IIS10
+  tags:
+    - iis10
+  matchers:
+    - location: header
+      words:
+        - IIS/10.0
+      condition: and
+
+- id: pythonsimplehttp
+  name: pythonSimpleHTTP
+  author: P1finger
+  description: pythonSimpleHTTP
+  tags:
+    - pythonSimpleHTTP
+  matchers:
+    - location: header
+      words:
+        - SimpleHTTP/
+
+- id: 宝塔
+  name: 宝塔
+  author: P1finger
+  description: 宝塔
+  tags:
+    - 宝塔
+  matchers:
+    - location: body
+      words:
+        - 恭喜，站点创建成功
+        - 没有找到站点
+
+- id: lnmp
+  name: lnmp
+  author: P1finger
+  description: lnmp
+  tags:
+    - lnmp
+  matchers:
+    - location: body
+      words:
+        - lnmp.gif
+
+- id: lanmp集成环境
+  name: lanmp集成环境
+  author: P1finger
+  description: lanmp集成环境
+  tags:
+    - lanmp集成环境
+  matchers:
+    - location: body
+      words:
+        - <title>LANMP
+
+- id: 宝塔面板
+  name: 宝塔面板
+  author: P1finger
+  description: 宝塔面板
+  tags:
+    - 宝塔面板
+  matchers:
+    - location: body
+      words:
+        - app.bt.cn/static/app.png
+        - 安全入口校验失败
+
+- id: tapestry
+  name: tapestry
+  author: P1finger
+  description: tapestry
+  tags:
+    - tapestry
+  matchers:
+    - location: body
+      words:
+        - tapestry
+
+- id: upload-form
+  name: upload-form
+  author: P1finger
+  description: upload-form
+  tags:
+    - upload-form
+  matchers:
+    - location: body
+      words:
+        - location="file"
+
+- id: fckeditor
+  name: fckeditor
+  author: P1finger
+  description: fckeditor
+  tags:
+    - fckeditor
+  matchers:
+    - location: body
+      words:
+        - FCKeditor
+
+- id: jeecg
+  name: jeecg
+  author: P1finger
+  description: jeecg
+  tags:
+    - jeecg
+  matchers:
+    - location: body
+      words:
+        - jeecg
+        - window._CONFIG['onlinePreviewDomainURL
+
+- id: telerik
+  name: telerik
+  author: P1finger
+  description: telerik
+  tags:
+    - telerik
+  matchers:
+    - location: body
+      words:
+        - telerik
+
+- id: 金蝶eas
+  name: 金蝶eas
+  author: P1finger
+  description: 金蝶eas
+  tags:
+    - 金蝶eas
+  matchers:
+    - location: body
+      words:
+        - easSessionId
+        - path=/eassso
+
+- id: 金蝶apusic
+  name: 金蝶apusic
+  author: P1finger
+  description: 金蝶apusic
+  tags:
+    - 金蝶apusic
+  matchers:
+    - location: header
+      words:
+        - Apusic
+    - location: body
+      words:
+        - -Error report
+        - Apusic Application Server
+
+- id: glassfish
+  name: glassfish
+  author: P1finger
+  description: glassfish
+  tags:
+    - glassfish
+  matchers:
+    - location: header
+      words:
+        - 'Server: GlassFish Server'

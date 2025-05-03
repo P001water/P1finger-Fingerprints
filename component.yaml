@@ -1,0 +1,329 @@
+- id: ajaxpro
+  name: ajaxpro
+  author: P1finger
+  description: ajaxpro
+  tags:
+  - ajaxpro
+  matchers:
+  - location: body
+    words:
+    - ajaxpro
+- id: ueditor
+  name: ueditor
+  author: P1finger
+  description: ueditor
+  tags:
+  - ueditor
+  matchers:
+  - location: body
+    words:
+    - ueditor.all
+    - ueditor.config.js
+- id: sourcemap
+  name: sourcemap
+  author: P1finger
+  description: sourcemap
+  tags:
+  - sourcemap
+  matchers: []
+- id: webpack
+  name: webpack
+  author: P1finger
+  description: webpack
+  tags:
+  - webpack
+  matchers:
+  - location: body
+    words:
+    - chunk-vendors
+    - webpack://
+- id: swagger
+  name: swagger
+  author: P1finger
+  description: swagger
+  tags:
+  - swagger
+  matchers: []
+- id: swagger-ui
+  name: swagger-ui
+  author: P1finger
+  description: swagger-ui
+  tags:
+  - swagger-ui
+  matchers:
+  - location: body
+    words:
+    - /swagger
+- id: druid
+  name: druid
+  author: P1finger
+  description: druid
+  tags:
+  - druid
+  matchers:
+  - location: body
+    words:
+      - druid/login.html
+      - druid.login
+- id: thymeleaf
+  name: thymeleaf
+  author: P1finger
+  description: thymeleaf
+  tags:
+  - thymeleaf
+  matchers:
+  - location: body
+    words:
+    - thymeleaf
+- id: iis
+  name: iis
+  author: P1finger
+  description: iis
+  tags:
+  - iis
+  matchers:
+  - location: body
+    words:
+    - Bad Request (Invalid Hostname)
+
+- id: struts2
+  name: struts2
+  author: P1finger
+  description: struts2
+  tags:
+    - struts2
+  matchers:
+    - location: body
+      words:
+        - org.apache.struts2
+        - struts.devMode
+        - struts-tags
+        - Action mapped for namespace
+        - .action
+
+- id: springboot
+  name: springboot
+  author: P1finger
+  description: springboot
+  tags:
+  - springboot
+  matchers:
+  - location: body
+    words:
+    - Whitelabel Error Page
+    - No message available
+    - '{"timestamp":'
+
+- id: springcloud-function
+  name: springcloud-function
+  author: P1finger
+  description: springcloud-function
+  tags:
+  - springcloud-function
+  matchers:
+  - location: body
+    words:
+    - '"error":"Internal Server Error"'
+- id: spring
+  name: spring
+  author: P1finger
+  description: spring
+  tags:
+  - spring
+  matchers:
+  - location: header
+    words:
+    - springframework
+- id: spring-cloud-hystrix
+  name: spring-cloud-hystrix
+  author: P1finger
+  description: spring-cloud-hystrix
+  tags:
+  - spring-cloud-hystrix
+  matchers:
+  - location: header
+    words:
+    - hystrix-dashboard
+  - location: body
+    words:
+    - hystrix
+- id: springsecurity
+  name: springsecurity
+  author: P1finger
+  description: springsecurity
+  tags:
+  - springsecurity
+  matchers:
+  - location: body
+    words:
+    - Full authentication is required
+- id: frp
+  name: frp
+  author: P1finger
+  description: frp
+  tags:
+  - frp
+  matchers:
+  - location: body
+    words:
+    - Faithfully yours, frp
+- id: tomcat
+  name: tomcat
+  author: P1finger
+  description: tomcat
+  tags:
+  - tomcat
+  matchers:
+  - location: header
+    words:
+    - Apache-Coyote
+- id: directory
+  name: directory
+  author: P1finger
+  description: directory
+  tags:
+  - directory
+  matchers: []
+- id: apache
+  name: apache
+  author: P1finger
+  description: apache
+  tags:
+  - apache
+  matchers: []
+- id: .net
+  name: .net
+  author: P1finger
+  description: .net
+  tags:
+  - .net
+  matchers:
+  - location: body
+    words:
+    - content="Visual Basic
+- id: ntlm认证
+  name: ntlm认证
+  author: P1finger
+  description: ntlm认证
+  tags:
+  - ntlm认证
+  matchers:
+  - location: header
+    words:
+    - NTLM
+- id: oracle-application-server
+  name: oracle-application-server
+  author: P1finger
+  description: oracle-application-server
+  tags:
+  - oracle-application-server
+  matchers:
+  - location: header
+    words:
+    - Oracle-Application-Server
+- id: redhat
+  name: redhat
+  author: P1finger
+  description: redhat
+  tags:
+  - redhat
+  matchers:
+  - location: header
+    words:
+    - Red Hat
+- id: redmine
+  name: redmine
+  author: P1finger
+  description: redmine
+  tags:
+  - redmine
+  matchers:
+  - location: body
+    words:
+    - Redmine
+    - authenticity_token
+- id: resin
+  name: resin
+  author: P1finger
+  description: resin
+  tags:
+  - resin
+  matchers:
+  - location: header
+    words:
+    - 'Server: Resin'
+- id: solr
+  name: solr
+  author: P1finger
+  description: solr
+  tags:
+  - solr
+  matchers:
+  - location: body
+    words:
+    - Solr Admin
+    - SolrCore Initialization Failures
+    - app_config.solr_path
+
+
+
+- id: vue
+  name: vue
+  author: P1finger
+  description: vue
+  tags:
+  - vue
+  matchers: []
+- id: f5bigip
+  name: f5bigip
+  author: P1finger
+  description: f5bigip
+  tags:
+  - f5bigip
+  matchers:
+  - location: header
+    words:
+    - X-PvInfo
+    - BigIP
+- id: f5bigip-console
+  name: f5bigip-console
+  author: P1finger
+  description: f5bigip-console
+  tags:
+  - f5bigip-console
+  matchers: []
+- id: jetty
+  name: jetty
+  author: P1finger
+  description: jetty
+  tags:
+  - jetty
+  matchers:
+  - location: header
+    words:
+    - Jetty
+  - location: body
+    words:
+    - Powered by Jetty
+- id: oauth2
+  name: Oauth2
+  author: P1finger
+  description: Oauth2
+  tags:
+  - Oauth2
+  matchers:
+  - location: header
+    words:
+    - bearer
+  - location: body
+    words:
+    - bearer
+
+
+
+
+
+
+
+
+

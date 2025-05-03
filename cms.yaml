@@ -1,0 +1,1494 @@
+- id: 08cms
+  name: 08cms
+  author: P001
+  description: 08cms
+  tags:
+    - 08cms
+  matchers:
+    - location: body
+      words:
+        - content="08cms
+        - locationof(_08cms)
+
+
+- id: 广讯通
+  name: 广讯通
+  author: P1finger
+  description: 广讯通
+  tags:
+  - 广讯通
+  matchers:
+  - location: body
+    words:
+    - Services/Identification/login.ashx
+- id: 微擎
+  name: 微擎
+  author: P1finger
+  description: 微擎
+  tags:
+  - 微擎
+  matchers:
+  - location: body
+    words:
+    - /index.php?c=user&a=find-password
+    - w7.cc
+- id: xxl-job
+  name: xxl-job
+  author: P1finger
+  description: xxl-job
+  tags:
+  - xxl-job
+  matchers:
+  - location: body
+    words:
+    - XXL-JOB
+- id: discuz
+  name: discuz
+  author: P1finger
+  description: discuz
+  tags:
+  - discuz
+  matchers:
+  - location: body
+    words:
+    - Discuz
+- id: 普元eos_console
+  name: 普元eos_console
+  author: P1finger
+  description: 普元eos_console
+  tags:
+  - 普元eos_console
+  matchers: []
+- id: 普元cms
+  name: 普元cms
+  author: P1finger
+  description: 普元cms
+  tags:
+  - 普元cms
+  matchers:
+  - location: body
+    words:
+    - /default/common/nui/nui.js
+- id: 时代光华学习平台
+  name: 时代光华学习平台
+  author: P1finger
+  description: 时代光华学习平台
+  tags:
+  - 时代光华学习平台
+  matchers:
+  - location: body
+    words:
+    - /webos/js/jquery.js
+- id: opac
+  name: opac
+  author: P1finger
+  description: opac
+  tags:
+  - opac
+  matchers:
+  - location: body
+    words:
+    - /opac/search/simsearch
+    - /opac/struts/dojo
+- id: jboss
+  name: jboss
+  author: P1finger
+  description: jboss
+  tags:
+  - jboss
+  matchers:
+  - location: body
+    words:
+    - Welcome to JBoss
+    - jboss.css
+  - location: header
+    words:
+    - JBoss
+- id: weblogic
+  name: weblogic
+  author: P1finger
+  description: weblogic
+  tags:
+  - weblogic
+  matchers:
+  - location: body
+    words:
+    - login_WebLogic_branding.png
+    - Branding_Login_WeblogicConsole.gif
+    - <i>Hypertext Transfer Protocol -- HTTP/1.1</i>
+  - location: header
+    words:
+    - WebLogic
+    - ADMINCONSOLESESSION
+- id: weblogic-console
+  name: weblogic-console
+  author: P1finger
+  description: weblogic-console
+  tags:
+  - weblogic-console
+  matchers: []
+- id: websphere
+  name: websphere
+  author: P1finger
+  description: websphere
+  tags:
+  - websphere
+  matchers:
+  - location: body
+    words:
+    - SRVE0255E
+    - ibm.ws.webcontainer.servlet
+    - IBM WebSphere Application Server
+- id: 普元eos
+  name: 普元eos
+  author: P1finger
+  description: 普元eos
+  tags:
+  - 普元eos
+  matchers:
+  - location: body
+    words:
+    - EOSOperator
+    - eos-web.js
+    - org.gocom
+  - location: header
+    words:
+    - eos_style_cookie
+- id: 普元coframe
+  name: 普元coframe
+  author: P1finger
+  description: 普元coframe
+  tags:
+  - 普元coframe
+  matchers:
+  - location: body
+    words:
+    - coframe
+- id: zzzcms
+  name: zzzcms
+  author: P1finger
+  description: zzzcms
+  tags:
+  - zzzcms
+  matchers:
+  - location: body
+    words:
+    - zzzcms
+- id: thinkcmf
+  name: thinkcmf
+  author: P1finger
+  description: thinkcmf
+  tags:
+  - thinkcmf
+  matchers:
+  - location: body
+    words:
+    - thinkcmf
+- id: thinkphp
+  name: thinkphp
+  author: P1finger
+  description: thinkphp
+  tags:
+  - thinkphp
+  matchers:
+  - location: header
+    words:
+    - ThinkPHP
+  - location: body
+    words:
+    - /Public/static/js/
+    - think\exception\HttpException
+- id: showdoc
+  name: showdoc
+  author: P1finger
+  description: showdoc
+  tags:
+  - showdoc
+  matchers:
+  - location: body
+    words:
+    - showdoc
+- id: 74cms
+  name: 74cms
+  author: P1finger
+  description: 74cms
+  tags:
+  - 74cms
+  matchers:
+  - location: body
+    words:
+    - 74cms
+- id: 泽元zcms
+  name: 泽元zcms
+  author: P1finger
+  description: 泽元zcms
+  tags:
+  - 泽元zcms
+  matchers:
+  - location: body
+    words:
+    - zcms_stat
+    - zcms_skin
+    - 泽元
+- id: 民友minyoocms
+  name: 民友minyoocms
+  author: P1finger
+  description: 民友minyoocms
+  tags:
+  - 民友minyoocms
+  matchers:
+  - location: body
+    words:
+    - Minyoo
+    - /tpl/8/images
+- id: 中科汇联easysite
+  name: 中科汇联easysite
+  author: P1finger
+  description: 中科汇联easysite
+  tags:
+  - 中科汇联easysite
+  matchers:
+  - location: body
+    words:
+    - EasySite
+  - location: header
+    words:
+    - EasySite
+- id: 中科汇联产品
+  name: 中科汇联产品
+  author: P1finger
+  description: 中科汇联产品
+  tags:
+  - 中科汇联产品
+  matchers:
+  - location: body
+    words:
+    - huilan-jquery-ui
+    - by Huilan
+- id: easycare
+  name: easycare
+  author: P1finger
+  description: easycare
+  tags:
+  - easycare
+  matchers:
+  - location: body
+    words:
+    - easycare
+  - location: header
+    words:
+    - easycare.session
+- id: jspxcms
+  name: jspxcms
+  author: P1finger
+  description: jspxcms
+  tags:
+  - jspxcms
+  matchers:
+  - location: body
+    words:
+    - Powered by Jspxcms
+- id: 奥远科技
+  name: 奥远科技
+  author: P1finger
+  description: 奥远科技
+  tags:
+  - 奥远科技
+  matchers:
+  - location: body
+    words:
+    - aykj.net
+- id: phpcms
+  name: phpcms
+  author: P1finger
+  description: phpcms
+  tags:
+  - phpcms
+  matchers:
+  - location: body
+    words:
+    - index.php?m=content&c=index&a=lists
+- id: metinfo
+  name: metinfo
+  author: P1finger
+  description: metinfo
+  tags:
+  - metinfo
+  matchers:
+  - location: body
+    words:
+    - MetInfo
+- id: 逐浪zoomla
+  name: 逐浪zoomla
+  author: P1finger
+  description: 逐浪zoomla
+  tags:
+  - 逐浪zoomla
+  matchers:
+  - location: body
+    words:
+    - zoomla
+    - NodePage.aspx
+- id: sscms
+  name: sscms
+  author: P1finger
+  description: sscms
+  tags:
+  - sscms
+  matchers:
+  - location: body
+    words:
+    - SS CMS
+    - /sitefiles/assets
+- id: finecms
+  name: finecms
+  author: P1finger
+  description: finecms
+  tags:
+  - finecms
+  matchers:
+  - location: body
+    words:
+    - FineCMS
+- id: 向日葵
+  name: 向日葵
+  author: P1finger
+  description: 向日葵
+  tags:
+  - 向日葵
+  matchers:
+  - location: body
+    words:
+    - '{"success":false,"msg":"Verification failure"}'
+- id: ideacms
+  name: ideacms
+  author: P1finger
+  description: ideacms
+  tags:
+  - ideacms
+  matchers:
+  - location: body
+    words:
+    - IdeaCMS
+- id: 博达vsb
+  name: 博达vsb
+  author: P1finger
+  description: 博达vsb
+  tags:
+  - 博达vsb
+  matchers:
+  - location: body
+    words:
+    - Visual SiteBuilder
+- id: 合正cms
+  name: 合正cms
+  author: P1finger
+  description: 合正cms
+  tags:
+  - 合正cms
+  matchers:
+  - location: body
+    words:
+    - /cms/cmsadmin/infopub
+- id: phpmywind
+  name: phpmywind
+  author: P1finger
+  description: phpmywind
+  tags:
+  - phpmywind
+  matchers:
+  - location: body
+    words:
+    - PHPMyWind
+- id: codeigniter
+  name: codeigniter
+  author: P1finger
+  description: codeigniter
+  tags:
+  - codeigniter
+  matchers:
+  - location: header
+    words:
+    - ci_session
+- id: weaver-ebridge
+  name: weaver-ebridge
+  author: P1finger
+  description: weaver-ebridge
+  tags:
+  - weaver-ebridge
+  matchers:
+  - location: body
+    words:
+    - e-Bridge
+- id: laravel
+  name: laravel
+  author: P1finger
+  description: laravel
+  tags:
+  - laravel
+  matchers:
+  - location: header
+    words:
+    - laravel_session
+- id: dwr
+  name: dwr
+  author: P1finger
+  description: dwr
+  tags:
+  - dwr
+  matchers:
+  - location: body
+    words:
+    - dwr/engine.js
+- id: 大汉版通发布系统
+  name: 大汉版通发布系统
+  author: P1finger
+  description: 大汉版通发布系统
+  tags:
+  - 大汉版通发布系统
+  matchers:
+  - location: body
+    words:
+    - /module/jslib/urite
+    - 大汉版通发布系统
+    - 大汉网络
+- id: jcms(捷点)
+  name: jcms(捷点)
+  author: P1finger
+  description: jcms(捷点)
+  tags:
+  - jcms(捷点)
+  matchers:
+  - location: body
+    words:
+    - JCms
+    - cnvp.com.cn
+- id: g4studio
+  name: g4studio
+  author: P1finger
+  description: g4studio
+  tags:
+  - g4studio
+  matchers:
+  - location: body
+    words:
+    - g4it
+    - g4.ico
+- id: 思迪thinkive
+  name: 思迪thinkive
+  author: P1finger
+  description: 思迪thinkive
+  tags:
+  - 思迪thinkive
+  matchers:
+  - location: body
+    words:
+    - thinkiveJs.min.js
+- id: 京伦cms
+  name: 京伦cms
+  author: P1finger
+  description: 京伦cms
+  tags:
+  - 京伦cms
+  matchers:
+  - location: body
+    words:
+    - jltech.cn
+- id: 翰臣cms
+  name: 翰臣cms
+  author: P1finger
+  description: 翰臣cms
+  tags:
+  - 翰臣cms
+  matchers:
+  - location: body
+    words:
+    - 翰臣科技
+- id: eweishop
+  name: eweishop
+  author: P1finger
+  description: eweishop
+  tags:
+  - eweishop
+  matchers:
+  - location: body
+    words:
+    - ewei_shop
+- id: joomla
+  name: joomla
+  author: P1finger
+  description: joomla
+  tags:
+  - joomla
+  matchers:
+  - location: body
+    words:
+    - mootools-core.js
+    - Joomla
+- id: 大汉web
+  name: 大汉web
+  author: P1finger
+  description: 大汉web
+  tags:
+  - 大汉web
+  matchers:
+  - location: body
+    words:
+    - hanweb.css
+- id: dreamcms
+  name: dreamcms
+  author: P1finger
+  description: dreamcms
+  tags:
+  - dreamcms
+  matchers:
+  - location: body
+    words:
+    - dreamer-cms
+- id: tongweb
+  name: tongweb
+  author: P1finger
+  description: tongweb
+  tags:
+  - tongweb
+  matchers:
+  - location: header
+    words:
+    - TongWeb Serve
+- id: jeesite
+  name: jeesite
+  author: P1finger
+  description: jeesite
+  tags:
+  - jeesite
+  matchers:
+  - location: body
+    words:
+    - jeesite.min.css
+- id: jeeplus
+  name: jeeplus
+  author: P1finger
+  description: jeeplus
+  tags:
+  - jeeplus
+  matchers:
+  - location: header
+    words:
+    - jeeplus.session
+- id: jeecms
+  name: jeecms
+  author: P1finger
+  description: jeecms
+  tags:
+  - jeecms
+  matchers:
+  - location: body
+    words:
+    - /r/cms
+- id: 新点cms
+  name: 新点cms
+  author: P1finger
+  description: 新点cms
+  tags:
+  - 新点cms
+  matchers:
+  - location: header
+    words:
+    - epointserver
+  - location: body
+    words:
+    - webBuilderCommon
+- id: 6kbbs
+  name: 6kbbs
+  author: P1finger
+  description: 6kbbs
+  tags:
+  - 6kbbs
+  matchers:
+  - location: body
+    words:
+    - Powered by 6kbbs
+    - generator" content="6KBBS
+- id: 74cms
+  name: 74cms
+  author: P1finger
+  description: 74cms
+  tags:
+  - 74cms
+  matchers:
+  - location: body
+    words:
+    - 74cms.com
+    - 骑士CMS
+- id: 08cms
+  name: 08cms
+  author: P1finger
+  description: 08cms
+  tags:
+  - 08cms
+  matchers:
+  - location: body
+    words:
+    - content="08CMS
+    - locationof(_08cms)
+- id: 1024cms
+  name: 1024 cms
+  author: P1finger
+  description: 1024 cms
+  tags:
+  - 1024 cms
+  matchers:
+  - location: body
+    words:
+    - Powered by 1024 CMS
+    - content="1024 CMS
+- id: 1024cms
+  name: 1024cms
+  author: P1finger
+  description: 1024cms
+  tags:
+  - 1024cms
+  matchers:
+  - location: body
+    words:
+    - Powered by 1024 CMS
+    - generator" content="1024 CMS (c)
+- id: 171cms
+  name: 171cms
+  author: P1finger
+  description: 171cms
+  tags:
+  - 171cms
+  matchers:
+  - location: body
+    words:
+    - content="171cms
+    - 171cms
+- id: php-cgi
+  name: php-cgi
+  author: P1finger
+  description: php-cgi
+  tags:
+  - php-cgi
+  matchers:
+  - location: header
+    words:
+    - PHP-CGI
+- id: phpb2b
+  name: phpb2b
+  author: P1finger
+  description: phpb2b
+  tags:
+  - phpb2b
+  matchers:
+  - location: body
+    words:
+    - Powered By PHPB2B
+- id: phpbb
+  name: phpbb
+  author: P1finger
+  description: phpbb
+  tags:
+  - phpbb
+  matchers:
+  - location: body
+    words:
+    - phpBB
+  - location: header
+    words:
+    - HttpOnly, phpbb3_
+- id: phpcms
+  name: phpcms
+  author: P1finger
+  description: phpcms
+  tags:
+  - phpcms
+  matchers:
+  - location: body
+    words:
+    - Phpcms
+- id: phpdisk
+  name: phpdisk
+  author: P1finger
+  description: phpdisk
+  tags:
+  - phpdisk
+  matchers:
+  - location: body
+    words:
+    - Powered by PHPDisk
+    - content="PHPDisk
+- id: phpdocumentor
+  name: phpdocumentor
+  author: P1finger
+  description: phpdocumentor
+  tags:
+  - phpdocumentor
+  matchers:
+  - location: body
+    words:
+    - Generated by phpDocumentor
+- id: phpems考试系统
+  name: phpems考试系统
+  author: P1finger
+  description: phpems考试系统
+  tags:
+  - phpems考试系统
+  matchers:
+  - location: body
+    words:
+    - phpems
+    - content="PHPEMS
+- id: phpinfo
+  name: phpinfo
+  author: P1finger
+  description: phpinfo
+  tags:
+  - phpinfo
+  matchers:
+  - location: body
+    words:
+    - phpinfo
+    - 'Virtual Directory Support '
+- id: phpmoadmin
+  name: phpmoadmin
+  author: P1finger
+  description: phpmoadmin
+  tags:
+  - phpmoadmin
+  matchers:
+  - location: body
+    words:
+    - phpmoadmin
+- id: phpmps
+  name: phpmps
+  author: P1finger
+  description: phpmps
+  tags:
+  - phpmps
+  matchers:
+  - location: body
+    words:
+    - Powered by Phpmps
+    - templates/phpmps/style/index.css
+- id: phpoa
+  name: phpoa
+  author: P1finger
+  description: phpoa
+  tags:
+  - phpoa
+  matchers:
+  - location: body
+    words:
+    - admin_img/msg_bg.png
+- id: phpok
+  name: phpok
+  author: P1finger
+  description: phpok
+  tags:
+  - phpok
+  matchers:
+  - location: body
+    words:
+    - phpok
+    - Powered By phpok.com
+    - content="phpok
+- id: phpshe
+  name: phpshe
+  author: P1finger
+  description: phpshe
+  tags:
+  - phpshe
+  matchers:
+  - location: body
+    words:
+    - Powered by phpshe
+    - content="phpshe
+- id: phpvod
+  name: phpvod
+  author: P1finger
+  description: phpvod
+  tags:
+  - phpvod
+  matchers:
+  - location: body
+    words:
+    - Powered by PHPVOD
+    - content="phpvod
+- id: phpweb
+  name: phpweb
+  author: P1finger
+  description: phpweb
+  tags:
+  - phpweb
+  matchers:
+  - location: body
+    words:
+    - PDV_PAGENAME
+- id: phpwind
+  name: phpwind
+  author: P1finger
+  description: phpwind
+  tags:
+  - phpwind
+  matchers:
+  - location: body
+    words:
+    - Powered by phpwind
+    - content="phpwind
+- id: rcms
+  name: rcms
+  author: P1finger
+  description: rcms
+  tags:
+  - rcms
+  matchers:
+  - location: body
+    words:
+    - /r/cms/www/
+- id: weiphp
+  name: weiphp
+  author: P1finger
+  description: weiphp
+  tags:
+  - weiphp
+  matchers:
+  - location: header
+    words:
+    - weiphp
+  - location: body
+    words:
+    - content="WeiPHP
+    - /css/weiphp.css
+- id: pcfcms
+  name: pcfcms
+  author: P1finger
+  description: pcfcms
+  tags:
+  - pcfcms
+  matchers:
+  - location: header
+    words:
+    - pcfcms
+- id: zblog
+  name: zblog
+  author: P1finger
+  description: zblog
+  tags:
+  - zblog
+  matchers:
+  - location: header
+    words:
+    - zb_user
+  - location: body
+    words:
+    - Z-Blog
+- id: tpshop
+  name: tpshop
+  author: P1finger
+  description: tpshop
+  tags:
+  - tpshop
+  matchers:
+  - location: body
+    words:
+    - /index.php/Mobile/Index/index.html
+    - TPshop
+- id: turbocms
+  name: turbocms
+  author: P1finger
+  description: turbocms
+  tags:
+  - turbocms
+  matchers:
+  - location: body
+    words:
+    - Powered by TurboCMS
+    - /cmsapp/zxdcADD.jsp
+    - /cmsapp/count/newstop_index.jsp?siteid=
+- id: locationcho
+  name: locationcho
+  author: P1finger
+  description: locationcho
+  tags:
+  - locationcho
+  matchers:
+  - location: body
+    words:
+    - generator" content="locationcho
+    - locationcho
+- id: webmin
+  name: webmin
+  author: P1finger
+  description: webmin
+  tags:
+  - webmin
+  matchers:
+  - location: body
+    words:
+    - Webmin
+- id: 全国烟草系统
+  name: 全国烟草系统
+  author: P1finger
+  description: 全国烟草系统
+  tags:
+  - 全国烟草系统
+  matchers:
+  - location: body
+    words:
+    - ycportal/webpublish
+- id: 八哥cms
+  name: 八哥cms
+  author: P1finger
+  description: 八哥cms
+  tags:
+  - 八哥cms
+  matchers:
+  - location: body
+    words:
+    - content="BageCMS
+- id: 帝国empirecms
+  name: 帝国empirecms
+  author: P1finger
+  description: 帝国empirecms
+  tags:
+  - 帝国empirecms
+  matchers:
+  - location: body
+    words:
+    - Powered by EmpireCMS
+- id: 捷点jcms
+  name: 捷点jcms
+  author: P1finger
+  description: 捷点jcms
+  tags:
+  - 捷点jcms
+  matchers:
+  - location: body
+    words:
+    - Publish By JCms2010
+- id: 易企cms
+  name: 易企cms
+  author: P1finger
+  description: 易企cms
+  tags:
+  - 易企cms
+  matchers:
+  - location: body
+    words:
+    - content="YiqiCMS
+- id: 海洋cms
+  name: 海洋cms
+  author: P1finger
+  description: 海洋cms
+  tags:
+  - 海洋cms
+  matchers:
+  - location: body
+    words:
+    - seacms
+- id: 美洽在线客服
+  name: 美洽在线客服
+  author: P1finger
+  description: 美洽在线客服
+  tags:
+  - 美洽在线客服
+  matchers:
+  - location: body
+    words:
+    - /meiqia.js
+    - meiqia.com
+- id: 育友软件
+  name: 育友软件
+  author: P1finger
+  description: 育友软件
+  tags:
+  - 育友软件
+  matchers:
+  - location: body
+    words:
+    - yuysoft.com
+- id: 50cms
+  name: 50cms
+  author: P1finger
+  description: 50cms
+  tags:
+  - 50cms
+  matchers: []
+- id: 云梦cms
+  name: 云梦cms
+  author: P1finger
+  description: 云梦cms
+  tags:
+  - 云梦cms
+  matchers:
+  - location: body
+    words:
+    - wezhan.cn
+- id: 未知金融行业通用系统
+  name: 未知金融行业通用系统
+  author: P1finger
+  description: 未知金融行业通用系统
+  tags:
+  - 未知金融行业通用系统
+  matchers:
+  - location: body
+    words:
+    - hsea.min.css
+- id: 亿信华辰财务bi
+  name: 亿信华辰财务BI
+  author: P1finger
+  description: 亿信华辰财务BI
+  tags:
+  - 亿信华辰财务BI
+  matchers:
+  - location: header
+    words:
+    - X-ESEN
+  - location: body
+    words:
+    - esen_mainframe
+- id: 泛鹏天地财务系统
+  name: 泛鹏天地财务系统
+  author: P1finger
+  description: 泛鹏天地财务系统
+  tags:
+  - 泛鹏天地财务系统
+  matchers:
+  - location: body
+    words:
+    - 泛鹏天地
+    - instantclick.js
+- id: beecms
+  name: beecms
+  author: P1finger
+  description: beecms
+  tags:
+  - beecms
+  matchers:
+  - location: body
+    words:
+    - BEESCMS
+    - template/default/images/slides.min.jquery.js
+- id: bitrixsitemanager
+  name: bitrixsitemanager
+  author: P1finger
+  description: bitrixsitemanager
+  tags:
+  - bitrixsitemanager
+  matchers:
+  - location: header
+    words:
+    - 'X-Powered-Cms: Bitrix Site Manager'
+- id: bloofoxcms
+  name: bloofoxcms
+  author: P1finger
+  description: bloofoxcms
+  tags:
+  - bloofoxcms
+  matchers:
+  - location: body
+    words:
+    - content="bloofoxCMS
+    - Powered by <a href="http://www.bloofox.com
+- id: blue-coat-proxysg
+  name: blue-coat-proxysg
+  author: P1finger
+  description: blue-coat-proxysg
+  tags:
+  - blue-coat-proxysg
+  matchers:
+  - location: header
+    words:
+    - proxysg
+- id: bluecms
+  name: bluecms
+  author: P1finger
+  description: bluecms
+  tags:
+  - bluecms
+  matchers:
+  - location: body
+    words:
+    - power by bcms
+    - bcms_plugin
+- id: boyowcms
+  name: boyowcms
+  author: P1finger
+  description: boyowcms
+  tags:
+  - boyowcms
+  matchers:
+  - location: body
+    words:
+    - publish by BoyowCMS
+- id: bpanelcms
+  name: bpanelcms
+  author: P1finger
+  description: bpanelcms
+  tags:
+  - bpanelcms
+  matchers:
+  - location: header
+    words:
+    - 'X-Powered-Cms: BPanel CMS'
+- id: browsercms
+  name: browsercms
+  author: P1finger
+  description: browsercms
+  tags:
+  - browsercms
+  matchers:
+  - location: body
+    words:
+    - Powered by BrowserCMS
+    - content="BrowserCMS
+- id: cm3-cms
+  name: cm3-cms
+  author: P1finger
+  description: cm3-cms
+  tags:
+  - cm3-cms
+  matchers:
+  - location: body
+    words:
+    - content="cm3 content manager
+  - location: header
+    words:
+    - cm3session
+- id: cms-made-simple
+  name: cms-made-simple
+  author: P1finger
+  description: cms-made-simple
+  tags:
+  - cms-made-simple
+  matchers:
+  - location: body
+    words:
+    - content="CMS Made Simple
+  - location: header
+    words:
+    - CMSSESSID
+- id: cms-webmanager-pro
+  name: cms-webmanager-pro
+  author: P1finger
+  description: cms-webmanager-pro
+  tags:
+  - cms-webmanager-pro
+  matchers:
+  - location: body
+    words:
+    - content="Webmanager-pro
+    - href="http://webmanager-pro.com">Web.Manager
+- id: cmscontrol
+  name: cmscontrol
+  author: P1finger
+  description: cmscontrol
+  tags:
+  - cmscontrol
+  matchers:
+  - location: body
+    words:
+    - content="CMScontrol
+- id: cmscout
+  name: cmscout
+  author: P1finger
+  description: cmscout
+  tags:
+  - cmscout
+  matchers:
+  - location: body
+    words:
+    - Powered by CMScout
+  - location: header
+    words:
+    - cmscout2=
+- id: cmseasy
+  name: cmseasy
+  author: P1finger
+  description: cmseasy
+  tags:
+  - cmseasy
+  matchers:
+  - location: body
+    words:
+    - Powered by CmsEasy
+    - content="CmsEasy
+  - location: header
+    words:
+    - http://www.cmseasy.cn/service_1.html
+- id: cmsimple
+  name: cmsimple
+  author: P1finger
+  description: cmsimple
+  tags:
+  - cmsimple
+  matchers:
+  - location: body
+    words:
+    - Powered by CMSimple.dk
+    - content="CMSimple
+- id: cmsqlite
+  name: cmsqlite
+  author: P1finger
+  description: cmsqlite
+  tags:
+  - cmsqlite
+  matchers:
+  - location: body
+    words:
+    - powered by CMSQLite
+    - content="www.CMSQLite.net
+- id: cmstop
+  name: cmstop
+  author: P1finger
+  description: cmstop
+  tags:
+  - cmstop
+  matchers:
+  - location: body
+    words:
+    - /js/cmstop-common.js
+    - www.cmstop.com
+- id: zohomanageengine
+  name: Zoho ManageEngine
+  author: P1finger
+  description: Zoho ManageEngine
+  tags:
+  - Zoho ManageEngine
+  matchers:
+  - location: body
+    words:
+    - scripts/esapi.js
+- id: dedecms
+  name: dedecms
+  author: P1finger
+  description: dedecms
+  tags:
+  - dedecms
+  matchers:
+  - location: body
+    words:
+    - DedeCMS
+    - /templets/default/style/dedecms.css
+- id: kingdee产品
+  name: kingdee产品
+  author: P1finger
+  description: kingdee产品
+  tags:
+  - kingdee产品
+  matchers:
+  - location: body
+    words:
+    - .kingdee.com
+- id: 普华power-pms
+  name: 普华Power-PMS
+  author: P1finger
+  description: 普华Power-PMS
+  tags:
+  - 普华Power-PMS
+  matchers:
+  - location: body
+    words:
+    - /Account/GetSiteCode/
+- id: 若依
+  name: 若依
+  author: P1finger
+  description: 若依
+  tags:
+  - 若依
+  matchers:
+  - location: body
+    words:
+    - ruoyi/css/ry-ui.css
+- id: 普华科技
+  name: 普华科技
+  author: P1finger
+  description: 普华科技
+  tags:
+  - 普华科技
+  matchers:
+  - location: body
+    words:
+    - Power_choose_lang
+- id: 云问科技-客服系统
+  name: 云问科技-客服系统
+  author: P1finger
+  description: 云问科技-客服系统
+  tags:
+  - 云问科技-客服系统
+  matchers:
+  - location: body
+    words:
+    - http://www.faqrobot.org/devdoc/helpDocument.html
+- id: 大华智能物联综合管理平台
+  name: 大华智能物联综合管理平台
+  author: P1finger
+  description: 大华智能物联综合管理平台
+  tags:
+  - 大华智能物联综合管理平台
+  matchers:
+  - location: body
+    words:
+    - location.hash.indexOf('/authLogin')
+    - <a href="www/mobile-version.txt"
+- id: 竹云iam
+  name: 竹云IAM
+  author: P1finger
+  description: 竹云IAM
+  tags:
+  - 竹云IAM
+  matchers:
+  - location: body
+    words:
+    - idp/AuthnEngine
+- id: 宏景hr
+  name: 宏景hr
+  author: P1finger
+  description: 宏景hr
+  tags:
+  - 宏景hr
+  matchers:
+  - location: body
+    words:
+    - /js/hcmPNG.js
+- id: 汇思learning
+  name: 汇思learning
+  author: P1finger
+  description: 汇思learning
+  tags:
+  - 汇思learning
+  matchers:
+  - location: body
+    words:
+    - id="globleMsgBoxTemplate"
+- id: 群杰印章物联网平台
+  name: 群杰印章物联网平台
+  author: P1finger
+  description: 群杰印章物联网平台
+  tags:
+  - 群杰印章物联网平台
+  matchers:
+  - location: body
+    words:
+    - 印章物联网平台-让用印更安全
+- id: 郑州信源招标系统
+  name: 郑州信源招标系统
+  author: P1finger
+  description: 郑州信源招标系统
+  tags:
+  - 郑州信源招标系统
+  matchers:
+  - location: body
+    words:
+    - static_resources/skin/css/master.css
+- id: 易道edoc2企业数据管理平台
+  name: 易道edoc2企业数据管理平台
+  author: P1finger
+  description: 易道edoc2企业数据管理平台
+  tags:
+  - 易道edoc2企业数据管理平台
+  matchers:
+  - location: body
+    words:
+    - href="Content/themes/blue/edoc2-page.min.css
+- id: office365
+  name: Office365
+  author: P1finger
+  description: Office365
+  tags:
+  - Office365
+  matchers:
+  - location: body
+    words:
+    - 请输入furl参数
+- id: 华为anyoffice
+  name: 华为Anyoffice
+  author: P1finger
+  description: 华为Anyoffice
+  tags:
+  - 华为Anyoffice
+  matchers:
+  - location: body
+    words:
+    - /MDMServer/loginPage.action
+- id: 一采通
+  name: 一采通
+  author: P1finger
+  description: 一采通
+  tags:
+  - 一采通
+  matchers:
+  - location: body
+    words:
+    - /Scripts/JqueryMobile/JSBase/YCT_QRCode.js
+- id: smartbi
+  name: smartbi
+  author: P1finger
+  description: smartbi
+  tags:
+  - smartbi
+  matchers:
+  - location: body
+    words:
+    - /smartbi/index.jsp
+    - smartbiXMobile
+    - SmartbiCefActiveX
+- id: uniemm
+  name: uniemm
+  author: P1finger
+  description: uniemm
+  tags:
+  - uniemm
+  matchers:
+  - location: body
+    words:
+    - com.leagsoft.emm
+    - emm-api
+  - location: header
+    words:
+    - emm-tunnel
+- id: telerik
+  name: Telerik
+  author: P1finger
+  description: Telerik
+  tags:
+  - Telerik
+  matchers:
+  - location: body
+    words:
+    - /Telerik.Web.UI.WebResource.axd
+    - content="Sitefinity
+- id: matomo
+  name: matomo
+  author: P1finger
+  description: matomo
+  tags:
+  - matomo
+  matchers:
+  - location: body
+    words:
+    - Matomo
+  - location: header
+    words:
+    - MATOMO_SESSID
+- id: 信雅达im
+  name: 信雅达IM
+  author: P1finger
+  description: 信雅达IM
+  tags:
+  - 信雅达IM
+  matchers:
+  - location: body
+    words:
+    - css/theme.full.css
+- id: 科蓝网上银行
+  name: 科蓝网上银行
+  author: P1finger
+  description: 科蓝网上银行
+  tags:
+  - 科蓝网上银行
+  matchers:
+  - location: body
+    words:
+    - /prelogin.do
