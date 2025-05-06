@@ -427,21 +427,23 @@
     - location.href='/fort'
     - SecFox运维安全管理
     - embedRzx location=application/htnpapi-plugin
-- id: 齐治堡垒机
-  name: 齐治堡垒机
+
+- id: qzsec-qizhi-bastionHost
+  name: qzsec-齐治堡垒机
   author: P1finger
   description: 齐治堡垒机
   tags:
-  - 齐治堡垒机
+    - 齐治堡垒机
   matchers:
-  - location: body
-    words:
-    - logo-icon-ico72.png
-    - image/top_logo.ico
-    - localStorage.deployPath + "/login?logout";
-  - location: header
-    words:
-    - /shterm
+    - location: body
+      words:
+      - logo-icon-ico72.png
+      - image/top_logo.ico
+      - localStorage.deployPath + "/login?logout";
+    - location: header
+      words:
+      - /shterm
+
 - id: 安恒云堡垒机
   name: 安恒云堡垒机
   author: P1finger

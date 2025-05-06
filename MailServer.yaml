@@ -108,17 +108,38 @@
     - 百讯安全邮件系统
     - 百姓邮局
     - bxemail.com
-- id: coremail
-  name: coremail
+- id: Coremail
+  name: Coremail-尚易企业邮箱
   author: P1finger
   description: coremail
   tags:
-  - coremail
+    - coremail
   matchers:
-  - location: body
-    words:
-    - /coremail/common/assets
-    - Coremail邮件系统
+    - location: body
+      words:
+        - /coremail/common/assets
+        - Coremail邮件系统
+        - /coremail/bundle/
+        - <a href="http://www.coremail.cn" target="_blank">
+        - action="/coremail/index.jsp
+        - 'fmt_logoalt: "coremail 电子邮件系统'
+
+- id: Email-网易企业邮箱
+  name: Email-网易企业邮箱
+  author: P001
+  description: 网易企业邮箱、netease-enterprise-mailbox
+  tags:
+    - netease-enterprise-mailbox
+  matchers:
+    - location: body
+      words:
+        - content="网易企业邮箱
+        - src="http://mimg.qiye.163.com/
+        - <span class="warn">请您从网易企业邮箱用户登录页登录</span>
+        - frmvalidator
+        - 本系统由网易企业邮提供
+        - 网易企业邮箱,登录企业邮箱,企业邮箱注册,电子邮箱
+
 - id: fangmail
   name: fangmail
   author: P1finger

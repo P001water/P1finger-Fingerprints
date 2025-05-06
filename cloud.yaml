@@ -73,19 +73,7 @@
     words:
     - i_like_gog
     - i_like_gitea
-- id: jenkins
-  name: jenkins
-  author: P1finger
-  description: jenkins
-  tags:
-  - jenkins
-  matchers:
-  - location: header
-    words:
-    - X-Jenkins
-  - location: body
-    words:
-    - Jenkins
+
 - id: nexus
   name: nexus
   author: P1finger
@@ -416,16 +404,7 @@
   - location: body
     words:
     - Apache ActiveMQ
-- id: nacos
-  name: nacos
-  author: P1finger
-  description: nacos
-  tags:
-  - nacos
-  matchers:
-  - location: body
-    words:
-    - <title>Nacos</title>
+
 - id: flink
   name: flink
   author: P1finger
@@ -554,20 +533,22 @@
   - location: header
     words:
     - Express
+
 - id: kubernetes
   name: Kubernetes
   author: P1finger
   description: Kubernetes
   tags:
-  - Kubernetes
+    - Kubernetes
   matchers:
-  - location: body
-    words:
-    - Kubernetes Dashboard
-    - Kubeconsole
-  - location: header
-    words:
-    - Basic realm="kubernetes-master"
+    - location: header
+      words:
+        - Basic realm="kubernetes-master"
+    - location: body
+      words:
+      - Kubernetes Dashboard
+      - Kubeconsole
+
 - id: kubeflow
   name: Kubeflow
   author: P1finger

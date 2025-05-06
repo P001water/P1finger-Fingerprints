@@ -298,20 +298,7 @@
   - location: body
     words:
     - an_util.js
-- id: BT-panel-宝塔面板
-  name: BT-panel-宝塔面板
-  author: P001
-  description: BT-panel-宝塔面板
-  tags:
-  - BT-panel-宝塔面板
-  matchers:
-  - location: body
-    words:
-    - <title>安全入口校验失败</title>
-    - 请使用正确的入口登录面板
-    - <li>更多功能了解，请查看<a href="https://www.bt.cn" target="_blank">宝塔官网(www.bt.cn)</a></li>
-    - BT_PANEL
-    - 宝塔小程序扫码登录
+
 - id: BossMail
   name: BossMail
   author: P001
@@ -596,36 +583,8 @@
     - 'x-confluence-request-time: *'
     - id="com-atlassian-confluence
     - name="confluence-base-url"
-- id: Coremail
-  name: Coremail
-  author: P001
-  description: Coremail
-  tags:
-  - Coremail
-  matchers:
-  - location: body
-    words:
-    - /coremail/bundle/
-    - /coremail/common/
-    - <a href="http://www.coremail.cn" target="_blank">
-    - action="/coremail/index.jsp
-    - coremail/common
-    - 'fmt_logoalt: "coremail 电子邮件系统'
-- id: Email-网易企业邮箱
-  name: Email-网易企业邮箱
-  author: P001
-  description: 网易企业邮箱、netease-enterprise-mailbox
-  tags:
-  - netease-enterprise-mailbox
-  matchers:
-  - location: body
-    words:
-    - content="网易企业邮箱
-    - src="http://mimg.qiye.163.com/
-    - <span class="warn">请您从网易企业邮箱用户登录页登录</span>
-    - frmvalidator
-    - 本系统由网易企业邮提供
-    - 网易企业邮箱,登录企业邮箱,企业邮箱注册,电子邮箱
+
+
 - id: EwoMail
   name: EwoMail
   author: P001
@@ -638,25 +597,9 @@
     - ewomail.com
     - rainloop/v/1.10.0.103/static/apple-touch-icon.png?v=community
     condition: and
-- id: GitLab
-  name: GitLab
-  author: P001
-  description: GitLab
-  tags:
-  - GitLab
-  matchers:
-  - location: body
-    words:
-    - 'set-cookie: _gitlab_session='
-    - GitLab Enterprise Edition
-    - <title>Sign in · GitLab</title>
-    - <a href="https://about.gitlab.com/">About GitLab
-    - class="col-sm-7 brand-holder pull-left"
-    - content="gitlab
-    - content="gitlab community edition"
-    - gon.default_issues_tracker
-    - <title>登录 · 极狐GitLab</title>
-    - 'top: 0; left: 0; height: 40px; z-index: 252;'
+
+
+
 - id: Grafana
   name: Grafana
   author: P001
@@ -669,19 +612,9 @@
     - grafana_icon.svg
     - grafana-app
     - window.grafanabootdata =
-- id: HIKVISION-iSecure-Center
-  name: HIKVISION-海康域见综合安防管理平台
-  author: P001
-  description: InfoSight-IOT、车载监控平台等疑似是同一套源码
-  tags:
-  - HIKVISION-海康域见综合安防管理平台
-  matchers:
-  - location: body
-    words:
-    - var settings_systemConfig
-    - '@Author: chenguohui'
-    - 提供给isee构架子页面使用的
-    - 联合xauthplus使用插件的方式做登录集成
+
+
+
 - id: Influxdata-InfluxDB
   name: Influxdata-InfluxDB
   author: P001
@@ -693,22 +626,7 @@
     words:
     - class="influxdb-version"
     - influxdb
-- id: Jenkins
-  name: Jenkins
-  author: P001
-  description: jenkins
-  tags:
-  - jenkins
-  matchers:
-  - location: body
-    words:
-    - /static/654b771c/scripts/redirect.js'
-  - location: header
-    words:
-    - X-Jenkins
-  - location: favicon
-    hash:
-    - 23e8c7bd78e8cd826c5a6073b15068b1
+
 - id: Kingdee-银企电子回单系统
   name: Kingdee-银企电子回单系统
   author: P001
@@ -16962,16 +16880,6 @@
   - location: favicon
     hash:
     - 6774ad0b380e1ffeee4e380352e51f15
-- id: showdoc
-  name: showdoc
-  author: P001
-  description: showdoc
-  tags:
-  - showdoc
-  matchers:
-  - location: body
-    words:
-    - content=本网站基于开源版showdoc搭建
 - id: shunde-cms
   name: shunde-cms
   author: P001
@@ -19330,16 +19238,7 @@
     - <script location="text/javascript" src="themes/default/js/webmail.js"></script>
     - uebimiau
     condition: and
-- id: ueditor
-  name: ueditor
-  author: P001
-  description: ueditor
-  tags:
-  - ueditor
-  matchers:
-  - location: body
-    words:
-    - ueditor.all.js
+
 - id: ufttt-iot
   name: ufttt-iot
   author: P001
@@ -24206,19 +24105,7 @@
     - ccaq_kf@unisk.cn
     - 信息安全综合管理平台
     condition: and
-- id: 致远互联OA
-  name: 致远互联OA
-  author: P001
-  description: 致远互联OA|北京友谊宾馆，徐石等创业团队和用友软件公司共同发起成立“用友致远软件技术有限公司”，专注于协同管理领域，致远软件启航
-  tags:
-  - yonyou-seeyon-oa
-  matchers:
-  - location: body
-    words:
-    - /seeyon/index.jsp
-    - /seeyon
-    - seeyonproductid
-    - 'Server: SY8045'
+
 - id: lan-lingeis-zhi-hui-xie-tong-ping-tai
   name: 蓝凌eis智慧协同平台
   author: P001

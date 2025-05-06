@@ -1,0 +1,63 @@
+- id: GitLab
+  name: GitLab-源代码开发系统
+  author: P001
+  description: GitLab
+  tags:
+    - GitLab
+  matchers:
+    - location: body
+      words:
+        - 'set-cookie: _gitlab_session='
+        - GitLab Enterprise Edition
+        - <title>Sign in · GitLab</title>
+        - <a href="https://about.gitlab.com/">About GitLab
+        - class="col-sm-7 brand-holder pull-left"
+        - content="gitlab
+        - content="gitlab community edition"
+        - gon.default_issues_tracker
+        - <title>登录 · 极狐GitLab</title>
+        - 'top: 0; left: 0; height: 40px; z-index: 252;'
+
+- id: HIKVISION-iSecure-Center
+  name: HIKVISION-海康域见综合安防管理平台
+  author: P001
+  description: InfoSight-IOT、车载监控平台等疑似是同一套源码
+  tags:
+    - HIKVISION-海康域见综合安防管理平台
+  matchers:
+    - location: body
+      words:
+        - var settings_systemConfig
+        - '@Author: chenguohui'
+        - 提供给isee构架子页面使用的
+        - 联合xauthplus使用插件的方式做登录集成
+
+- id: Jenkins
+  name: Jenkins
+  author: P001
+  description: jenkins
+  tags:
+    - jenkins
+  matchers:
+    - location: header
+      words:
+        - X-Jenkins
+    - location: body
+      words:
+        - /static/654b771c/scripts/redirect.js'
+        - Jenkins
+    - location: favicon
+      hash:
+        - 23e8c7bd78e8cd826c5a6073b15068b1
+
+
+- id: Alibaba_Nacos
+  name: Alibaba_Nacos
+  author: P1finger
+  description: nacos
+  tags:
+    - nacos
+  matchers:
+    - location: body
+      words:
+        - <title>Nacos</title>

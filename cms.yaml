@@ -196,18 +196,36 @@
     - ThinkPHP
   - location: body
     words:
-    - /Public/static/js/
-    - think\exception\HttpException
-- id: showdoc
-  name: showdoc
-  author: P1finger
-  description: showdoc
+      - /Public/static/js/
+      - think\exception\HttpException
+
+- id: thinkphp
+  name: ThinkPHP
+  author: Fofa
+  description: ThinkPHP
   tags:
-  - showdoc
+    - thinkphp
   matchers:
-  - location: body
-    words:
-    - showdoc
+    - location: header
+      words:
+        - thinkphp
+      condition: or
+    - location: header
+      words:
+        - think_template
+      condition: or
+
+- id: ShowDoc
+  name: ShowDoc-团队协作文档库
+  author: P1finger
+  description: ShowDoc
+  tags:
+    - ShowDoc
+  matchers:
+    - location: body
+      words:
+       - showdoc
+       - content=本网站基于开源版showdoc搭建
 - id: 74cms
   name: 74cms
   author: P1finger

@@ -13557,17 +13557,9 @@
   - location: header
     words:
     - 'Set-Cookie: fmi-cookie'
-- id: swaggerui
-  name: Swagger UI
-  author: P1finger
-  description: Swagger UI
-  tags:
-  - Swagger UI
-  matchers:
-  - location: body
-    words:
-    - swagger-ui.js
-    - swaggerbootstrapui.js
+
+
+
 - id: thinkphpyfcmf
   name: ThinkPHP YFCMF
   author: P1finger
@@ -19901,16 +19893,7 @@
   - location: body
     words:
     - qBittorrent Веб-интерфейс
-- id: showdoc
-  name: ShowDoc
-  author: P1finger
-  description: ShowDoc
-  tags:
-  - ShowDoc
-  matchers:
-  - location: body
-    words:
-    - ShowDoc
+
 - id: seafile
   name: Seafile
   author: P1finger

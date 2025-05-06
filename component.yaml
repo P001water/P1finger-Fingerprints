@@ -8,17 +8,19 @@
   - location: body
     words:
     - ajaxpro
-- id: ueditor
-  name: ueditor
+
+- id: UEditor
+  name: UEditor
   author: P1finger
-  description: ueditor
+  description: UEditor
   tags:
-  - ueditor
+    - UEditor
   matchers:
-  - location: body
-    words:
-    - ueditor.all
-    - ueditor.config.js
+    - location: body
+      words:
+        - ueditor.all
+        - ueditor.config.js
+
 - id: sourcemap
   name: sourcemap
   author: P1finger

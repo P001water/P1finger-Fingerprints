@@ -1,3 +1,31 @@
+- id: SeeYon-OA
+  name: SeeYou致远互联-OA
+  author: P001
+  description: 致远互联OA|北京友谊宾馆，徐石等创业团队和用友软件公司共同发起成立“用友致远软件技术有限公司”，专注于协同管理领域，致远软件启航
+  tags:
+    - yonyou-seeyon-oa
+  matchers:
+    - location: body
+      words:
+        - /seeyon/index.jsp
+        - /seeyon
+        - seeyonproductid
+        - 'Server: SY8045'
+
+- id: 用友致远oa
+  name: 用友致远oa
+  author: Fofa
+  description: 用友致远oa
+  tags:
+    - 用友致远oa
+  matchers:
+    - location: body
+      words:
+        - /seeyon/USER-DATA/IMAGES/LOGIN/login.gif
+        - /yyoa/
+        - 用友致远A
+      condition: or
+
 - id: 泛微e-cology
   name: 泛微 e-cology
   author: P1finger
@@ -13,8 +41,20 @@
     - /wui/theme/ecology
     - /cloudstore/resource/pc/com
 
-- id: ecology-oa-协同办公系统
-  name: ecology-oa-协同办公系统
+- id: oa(a8/seeyon/ufida)
+  name: OA(a8/seeyon/ufida)
+  author: Fofa
+  description: OA(a8/seeyon/ufida)
+  tags:
+    - oa(a8/seeyon/ufida)
+  matchers:
+    - location: body
+      words:
+        - /seeyon/USER-DATA/IMAGES/LOGIN/login.gif
+      condition: and
+
+- id: Ecology-OA
+  name:  Ecology-泛微OA-协同办公系统
   author: P001
   description: ecology-oa,泛微OA-协同办公系统
   tags:
@@ -27,9 +67,9 @@
     - location: header
       words:
         - testBanCookie
+        - ecology_jsessionid
     - location: body
       words:
-        - 'set-cookie: ecology_jsessionid'
         - /theme/ecology8/jquery/js/zdialog_wev8.js
         - /wui/common/css/w7ovfont.css
         - client/jquery.client_wev8.js
@@ -52,6 +92,7 @@
         - e-mobile
         - weaver
       condition: and
+
 - id: 泛微e-office
   name: 泛微e-office
   author: P001
@@ -65,6 +106,8 @@
         - szfeatures
         - dynamicode
         - isignatureportal
+
+
 - id: 泛微云桥e-Bridge
   name: 泛微云桥e-Bridge
   author: P001
@@ -355,6 +398,7 @@
     - ekpwx-v.oa.camc
     - resource/anonym.jsp
     - /sys/ui/js/LUI.js
+
 - id: 红帆oa
   name: 红帆oa
   author: P1finger

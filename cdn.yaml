@@ -1,13 +1,13 @@
-- id: 网宿
-  name: 网宿
+- id: WangsuCDN
+  name: 网宿-CDN
   author: P1finger
   description: 网宿
   tags:
-  - 网宿
+    - 网宿
   matchers:
-  - location: header
-    words:
-    - WS CDN Server
+    - location: header
+      words:
+        - WS CDN Server
 - id: alloyui
   name: alloyui
   author: P1finger

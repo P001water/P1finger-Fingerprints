@@ -1,0 +1,54 @@
+# CMake build directories and files
+out/
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+sync.ffs_db
+
+# Visual Studio specific files
+*.vcxproj*
+*.sln
+*.aps
+*.ncb
+*.opendb
+*.suo
+*.user
+*.VC.db
+
+# Ninja build system files
+.ninja_deps
+.ninja_log
+build.ninja
+
+# Backup and temporary files
+*.bak
+*.swp
+*.tmp
+*.log
+
+# Executables and binaries
+*.exe
+*.dll
+*.lib
+*.a
+*.so
+*.o
+*.obj
+*.pdb
+*.exp
+
+# Installation directories
+install/
+
+# Debug and release build directories
+/out/build/
+/out/install/
+/.vs
+
+# IDE metadata
+.vscode/
+.idea/

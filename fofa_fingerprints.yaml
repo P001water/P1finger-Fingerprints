@@ -2288,21 +2288,7 @@
     words:
     - <div id="ClickTaleDiv
     condition: and
-- id: thinkphp
-  name: ThinkPHP
-  author: Fofa
-  description: ThinkPHP
-  tags:
-  - thinkphp
-  matchers:
-  - location: header
-    words:
-    - thinkphp
-    condition: or
-  - location: header
-    words:
-    - think_template
-    condition: or
+
 - id: swiftlet
   name: Swiftlet
   author: Fofa
@@ -6962,17 +6948,7 @@
     words:
     - X-Hudson
     condition: and
-- id: jenkins
-  name: Jenkins
-  author: Fofa
-  description: Jenkins
-  tags:
-  - jenkins
-  matchers:
-  - location: header
-    words:
-    - X-Jenkins
-    condition: and
+
 - id: testlink
   name: testlink
   author: Fofa
@@ -26258,17 +26234,7 @@
     - /OAapp/WebObjects/OAapp.woa
     condition: and
 
-- id: oa(a8/seeyon/ufida)
-  name: OA(a8/seeyon/ufida)
-  author: Fofa
-  description: OA(a8/seeyon/ufida)
-  tags:
-  - oa(a8/seeyon/ufida)
-  matchers:
-  - location: body
-    words:
-    - /seeyon/USER-DATA/IMAGES/LOGIN/login.gif
-    condition: and
+
 - id: yongyoufe
   name: yongyoufe
   author: Fofa
@@ -26628,25 +26594,7 @@
     words:
     - /general/login/view//images/updateLoad.gif
     condition: or
-- id: 用友致远oa
-  name: 用友致远oa
-  author: Fofa
-  description: 用友致远oa
-  tags:
-  - 用友致远oa
-  matchers:
-  - location: body
-    words:
-    - /seeyon/USER-DATA/IMAGES/LOGIN/login.gif
-    condition: or
-  - location: title
-    words:
-    - 用友致远A
-    condition: or
-  - location: body
-    words:
-    - /yyoa/
-    condition: or
+
 - id: avantfax传真管理
   name: AvantFAX传真管理
   author: Fofa
