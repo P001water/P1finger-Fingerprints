@@ -6,7 +6,7 @@
 
 * 指纹库详情和如何提交指纹参见我们的工具技术wiki
 
-   [P1finger 工具简介 - 安全漫道.team Wiki](http://127.0.0.1:8000/wiki/P1finger/introduce/)
+   [P1finger 工具简介 - 安全漫道.team Wiki]([安全漫道.team Wiki](https://securapath.github.io/SecuraPathWiki/))
 
 ![image-20250503165901036](./img/image-20250503165901036.png)
 
